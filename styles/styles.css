@@ -21,6 +21,16 @@ h2 {
 
 .navbar {
   background-color: white;
+  z-index: 2;
+  padding-left: 20px;
+}
+
+.nav-options {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  margin-right: 30px;
 }
 
 .wordmark {
@@ -68,4 +78,9 @@ h2 {
 
 .highlight {
   color: var(--main-color);
+}
+
+.footer {
+  background-color: white;
+  z-index: 3;
 }
