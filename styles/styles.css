@@ -1,6 +1,5 @@
 :root {
   --main-color: #fd5d5d;
-  --light-color: #fff7bc;
 }
 
 body {
@@ -35,14 +34,12 @@ h1 {
 .wordmark {
   font-family: "Sacramento", cursive;
   font-size: 40px;
-  transition: all 200ms ease-in-out;
 }
 
 .split {
   height: 100%;
   width: 50%;
   position: fixed;
-  overflow-x: hidden;
 }
 
 .left {
@@ -57,7 +54,6 @@ h1 {
 }
 
 .work-link {
-  max-width: 200px;
   margin-top: 30px;
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
