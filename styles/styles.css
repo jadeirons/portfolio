@@ -51,7 +51,6 @@ h1 {
   left: 0;
   background-image: url(/images/toronto1.jpg);
   background-size: cover;
-  background-position: right;
 }
 
 .right {
@@ -65,6 +64,11 @@ h1 {
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
   padding: 10px;
+}
+
+.work-link:visited {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
 }
 
 .work-link:hover {
