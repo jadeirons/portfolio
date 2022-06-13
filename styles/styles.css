@@ -40,6 +40,7 @@ h1 {
   height: 100%;
   width: 50%;
   position: fixed;
+  overflow-x: hidden;
 }
 
 .left {
@@ -111,7 +112,6 @@ h1 {
   }
   .alt-image {
     display: block;
-    margin: 0 auto;
     margin-top: 30px;
     width: 100%;
   }
