@@ -76,7 +76,6 @@ a:hover {
 
 .right {
   right: 0;
-  padding: 40px;
   overflow: hidden;
 }
 
@@ -107,9 +106,9 @@ a:hover {
 .main-content {
   position: relative;
   top: 55px;
-  height: 100%;
-  padding: 10px;
-  overflow: scroll;
+  height: 90%;
+  padding: 50px;
+  overflow-y: scroll;
 }
 
 .alt-image {
@@ -152,17 +151,20 @@ a:hover {
   }
 
   .main-content {
-    height: auto;
+    max-height: 100%;
     text-align: center;
-    margin-top: 40px;
   }
+
   .navbar {
     background-color: white;
   }
   .alt-image {
     display: block;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
+    border: white 7px solid;
   }
 
   .alt-image.about {
@@ -193,13 +195,11 @@ a:hover {
   .right {
     left: 36%;
     width: auto;
-    padding: 5px;
   }
 
   .main-content {
-    margin-top: 55px;
-    padding: 30px;
-    height: 80%;
+    padding: 35px;
+    height: 90%;
     position: relative;
     top: 55px;
   }
