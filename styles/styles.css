@@ -153,6 +153,7 @@ a:hover {
   .main-content {
     max-height: 100%;
     text-align: center;
+    padding: 20px;
   }
 
   .navbar {
@@ -160,7 +161,8 @@ a:hover {
   }
   .alt-image {
     display: block;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%;
     margin-top: 50px;
     border-radius: 20px;
     box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
@@ -171,7 +173,7 @@ a:hover {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    max-width: 60%;
+    max-width: 70%;
     border-radius: 20px;
     box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
     border: white 7px solid;
