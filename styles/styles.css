@@ -142,6 +142,10 @@ a:hover {
     font-size: 30px;
   }
 
+  .work-link {
+    padding: 15px;
+  }
+
   .left {
     display: none;
   }
@@ -155,6 +159,7 @@ a:hover {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+    margin-bottom: 50px;
   }
 
   .navbar {
