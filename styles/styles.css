@@ -152,7 +152,8 @@ a:hover {
 
   .main-content {
     text-align: center;
-    margin-top: 120px;
+    align-items: center;
+    margin-top: 40px;
   }
   .navbar {
     background-color: white;
@@ -186,8 +187,6 @@ a:hover {
 
   .split {
     width: 35%;
-    padding: 0;
-    margin: 0;
   }
 
   .right {
@@ -196,15 +195,12 @@ a:hover {
     padding: 5px;
   }
 
-  .left {
-    background-position: right;
-  }
-
   .main-content {
     position: relative;
     top: 55px;
-    height: 100%;
-    overflow: scroll;
+    margin-top: 30px;
+    height: 80%;
+    overflow-y: scroll;
   }
 
   .profile-pic {
