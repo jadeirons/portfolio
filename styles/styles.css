@@ -111,11 +111,7 @@ a:hover {
   overflow: scroll;
 }
 
-.alt-image.home {
-  display: none;
-}
-
-.alt-image.about {
+.alt-image {
   display: none;
 }
 
@@ -128,7 +124,6 @@ a:hover {
 
 .profile-pic {
   max-width: 50%;
-  max-height: 60%;
   border-radius: 20px;
   box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
   border: white 7px solid;
@@ -152,26 +147,14 @@ a:hover {
 
   .main-content {
     text-align: center;
-    align-items: center;
     margin-top: 40px;
   }
   .navbar {
     background-color: white;
   }
-  .alt-image.home {
+  .alt-image {
     display: block;
-    margin-top: 30px;
     width: 100%;
-  }
-
-  .alt-image.about {
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
-    border: white 7px solid;
-    margin-bottom: 30px;
   }
 }
 
