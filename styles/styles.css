@@ -1,5 +1,5 @@
 :root {
-  --main-color: #fd5d5d;
+  --main-color: #f55353;
 }
 
 body {
@@ -16,6 +16,24 @@ h1 {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 30px;
+}
+
+h2.about {
+  font-size: 60px;
+}
+
+h1.about {
+  font-size: 24px;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  transition: all 200ms ease-in-out;
 }
 
 .navbar {
@@ -45,13 +63,20 @@ h1 {
 
 .left {
   left: 0;
+}
+
+.left.home {
   background-image: url(/images/toronto1.jpg);
   background-size: cover;
 }
 
+.left.about {
+  background-color: var(--main-color);
+}
+
 .right {
   right: 0;
-  padding: 50px;
+  padding: 40px;
 }
 
 .work-link {
@@ -79,12 +104,29 @@ h1 {
 }
 
 .main-content {
+  position: relative;
+  top: 55px;
   padding: 10px;
-  margin-top: 80px;
+  height: 100%;
+  overflow: scroll;
 }
 
 .alt-image {
   display: none;
+}
+
+.img-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  max-width: 50%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
+  border: white 7px solid;
 }
 
 @media (max-width: 576px) {
@@ -146,11 +188,5 @@ h1 {
   .main-content {
     margin-top: 100px;
     padding: 30px;
-  }
-}
-
-@media (max-height: 489px) {
-  .navbar {
-    background-color: white;
   }
 }
