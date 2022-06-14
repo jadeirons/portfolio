@@ -106,8 +106,8 @@ a:hover {
 .main-content {
   position: relative;
   top: 55px;
-  padding: 10px;
   height: 100%;
+  padding: 10px;
   overflow: scroll;
 }
 
@@ -146,6 +146,7 @@ a:hover {
   }
 
   .main-content {
+    height: auto;
     text-align: center;
     margin-top: 40px;
   }
@@ -155,6 +156,7 @@ a:hover {
   .alt-image {
     display: block;
     width: 100%;
+    margin-top: 80px;
   }
 }
 
@@ -179,14 +181,10 @@ a:hover {
   }
 
   .main-content {
+    margin-top: 55px;
+    padding: 30px;
+    height: 80%;
     position: relative;
     top: 55px;
-    margin-top: 30px;
-    height: 80%;
-    overflow-y: scroll;
-  }
-
-  .profile-pic {
-    max-width: 80%;
   }
 }
