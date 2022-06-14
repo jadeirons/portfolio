@@ -111,7 +111,11 @@ a:hover {
   overflow: scroll;
 }
 
-.alt-image {
+.alt-image.home {
+  display: none;
+}
+
+.alt-image.about {
   display: none;
 }
 
@@ -124,6 +128,7 @@ a:hover {
 
 .profile-pic {
   max-width: 50%;
+  max-height: 60%;
   border-radius: 20px;
   box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
   border: white 7px solid;
@@ -152,10 +157,20 @@ a:hover {
   .navbar {
     background-color: white;
   }
-  .alt-image {
+  .alt-image.home {
     display: block;
     margin-top: 30px;
     width: 100%;
+  }
+
+  .alt-image.about {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
+    border: white 7px solid;
+    margin-bottom: 30px;
   }
 }
 
@@ -186,7 +201,13 @@ a:hover {
   }
 
   .main-content {
-    margin-top: 100px;
-    padding: 30px;
+    position: relative;
+    top: 55px;
+    height: 100%;
+    overflow: scroll;
+  }
+
+  .profile-pic {
+    max-width: 80%;
   }
 }
