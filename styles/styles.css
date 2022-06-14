@@ -115,6 +115,10 @@ a:hover {
   display: none;
 }
 
+.alt-image.about {
+  display: none;
+}
+
 .img-container {
   height: 100%;
   display: flex;
@@ -124,6 +128,7 @@ a:hover {
 
 .profile-pic {
   max-width: 50%;
+  max-height: 60%;
   border-radius: 20px;
   box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
   border: white 7px solid;
@@ -158,6 +163,16 @@ a:hover {
     width: 100%;
     margin-top: 80px;
   }
+
+  .alt-image.about {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 60%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
+    border: white 7px solid;
+  }
 }
 
 @media (max-width: 768px) and (min-width: 576px) {
@@ -186,5 +201,9 @@ a:hover {
     height: 80%;
     position: relative;
     top: 55px;
+  }
+
+  .profile-pic {
+    max-width: 80%;
   }
 }
