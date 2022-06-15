@@ -37,8 +37,18 @@ a:hover {
   transition: all 200ms ease-in-out;
 }
 
+.work-title {
+  margin-top: 200px;
+  z-index: 2;
+}
+
 .navbar {
   background-color: transparent;
+  padding-left: 20px;
+}
+
+.navbar.work {
+  background-color: white;
   padding-left: 20px;
 }
 
@@ -62,6 +72,12 @@ a:hover {
   overflow-x: hidden;
 }
 
+.split.work {
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1;
+}
+
 .left {
   left: 0;
 }
@@ -78,6 +94,11 @@ a:hover {
 .left.contact {
   background-image: url(/images/phone.jpg);
   background-size: cover;
+}
+
+.left.work {
+  background-color: var(--main-color);
+  overflow-y: hidden;
 }
 
 .right {
@@ -114,6 +135,7 @@ a:hover {
   top: 55px;
   height: 90%;
   padding: 50px;
+  margin-top: 30px;
   overflow-y: scroll;
 }
 
@@ -138,6 +160,32 @@ a:hover {
   border-radius: 20px;
   box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
   border: white 7px solid;
+}
+
+.work-layout {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.portfolio-card {
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  max-width: max-content;
+  margin-top: 30px;
+}
+
+.portfolio-link {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  padding: 10px;
+}
+
+.portfolio-img {
+  border-radius: 20px;
+  box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
+  border: white 3px solid;
 }
 
 @media (max-width: 576px) {
