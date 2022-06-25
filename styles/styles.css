@@ -194,6 +194,7 @@ a:hover {
 
 .work-info:hover {
   opacity: 100%;
+  transition: all 200ms ease-in-out;
 }
 
 .fa-arrow-up-right-from-square {
@@ -209,6 +210,7 @@ a:hover {
 
 .fa-arrow-up-right-from-square:hover {
   opacity: 100%;
+  transition: all 200ms ease-in-out;
 }
 
 @media (max-width: 576px) {
