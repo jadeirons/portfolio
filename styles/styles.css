@@ -18,8 +18,23 @@ h1 {
   margin-bottom: 30px;
 }
 
-h5 {
+.portfolio-title {
   margin-top: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  opacity: 70%;
+}
+
+.portfolio-title.white {
+  color: var(--main-color);
+}
+
+.portfolio-title.color {
+  color: white;
+}
+
+.portfolio-title:hover {
+  opacity: 100%;
 }
 
 h2.about,
@@ -166,22 +181,34 @@ a:hover {
   border: white 7px solid;
 }
 
-.work-grid {
+.work-info {
   text-align: center;
-  max-width: 90%;
+  margin-top: 10px;
+  padding: 40px;
+  border-radius: 4px;
 }
 
-.portfolio-link {
+.work-info.color {
   background-color: var(--main-color);
-  border: 1px solid var(--main-color);
-  padding: 10px;
 }
 
-.portfolio-img {
-  max-width: 400px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 22px rgba(0, 0, 0, 0.2);
-  border: white 3px solid;
+.work-info:hover {
+  opacity: 100%;
+}
+
+.fa-arrow-up-right-from-square {
+  font-size: 30px;
+  margin-top: 10px;
+  opacity: 70%;
+  color: var(--main-color);
+}
+
+.fa-arrow-up-right-from-square.color {
+  color: white;
+}
+
+.fa-arrow-up-right-from-square:hover {
+  opacity: 100%;
 }
 
 @media (max-width: 576px) {
