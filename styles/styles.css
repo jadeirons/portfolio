@@ -198,18 +198,20 @@ a:hover {
   transition: all 200ms ease-in-out;
 }
 
-.fa-arrow-up-right-from-square {
+.icon {
   font-size: 30px;
   margin-top: 10px;
   opacity: 70%;
   color: var(--main-color);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.fa-arrow-up-right-from-square.color {
+.icon.color {
   color: white;
 }
 
-.fa-arrow-up-right-from-square:hover {
+.icon:hover {
   opacity: 100%;
   transition: all 200ms ease-in-out;
 }
